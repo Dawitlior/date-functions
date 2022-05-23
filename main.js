@@ -40,6 +40,7 @@
 
 
 // צור פונקציה המקבלת מהמשתמש תאריך כסטרינג ומחזירה את השעה
+
 // function getFromUserTheHouer(){
 // var getTheHours = new Date(prompt("type some date"));
 // return getTheHours.getHours();
@@ -70,33 +71,47 @@
 
 
 // צרו פונקציה הקולטת מהמשתמש 2 תאריכים כסטרינג ומחזירה את המוקדם מביניהם.
-function returnTheEarliersBetween(){
-var user1 = new Date(prompt("type some date"))
-var user2 = new Date(prompt("type some date"))
-if(user1<user2){
-return user1
-}
-else{
-return user2
-}
+// function returnTheEarliersBetween(){
+// var user1 = new Date(prompt("type some date"))
+// var user2 = new Date(prompt("type some date"))
+// if(user1<user2){
+// return user1
+// }
+// else{
+// return user2
+// }
 
-
-
-}
-returnTheEarliersBetween
+// }
+// returnTheEarliersBetween();
 
 
 
 
 // צרו פונקציה הקולטת מהמשתמש תאריך כסטריג ומחזירה את הגיל שלו
 
+// function getUserAge(){
+// var userDate = new Date(prompt("type a date"))
+// return new Date().getFullYear - userDate.getFullYear
 
-
+// }
+// getUserAge()
 
 
 
 // 172	Date	צרו פונקציה הקולטת מהמשתמש תאריך כסטרינג, אם המשתמש מעל 18 היא מדפיסה alert שהוא רשאי להיכנס אחרת מדפיסה הודעה שהמשתמש לא רשאי.	
 
+// function getDateFromUser(){
+// var userDate = new Date(prompt("type a date"))
+// var useryear = userDate.getFullYear();
+// if(userDate>useryear){
+//     alert("you are allow to get the site")
+// }
+// else{
+//     console.log("you are not allow to get in the site")
+// }
+
+// }
+// getDateFromUser();
 
 
 
@@ -111,13 +126,10 @@ returnTheEarliersBetween
 
 // צרו פונקציה שיוצרת תאריך רנדומלי בין 31/01/1990 ל 31/01/2022 ומדפיסה את התוצאה.
 
-// function getRandomDate(){
-//     var rndMonth = Math.floor(Math.random() *12 )
-//     var rndDay = Math.floor(Math.random() *(31-1)+1 )
-//     var dateStr = rndMonth + "/" + rndDay + "/1996"
-//     var date = new Date(dateStr);
+function getRandomDate(){
+    var rnd = 
+    return 
+}
+getRandomDate();
 
-//     return date;
-// }
-// getRandomDate();
 
