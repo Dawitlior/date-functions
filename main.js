@@ -29,12 +29,11 @@
 
 
 // צור פונקציה המקבלת מהמשתמש תאריך כסטרינג ומחזירה את החודש
-// function getFromUserTheMonth(){
-// var someMonth = new Date(prompt("type some Date"))
-// someMonth.getMonth()
-// return someMonth;
-// }
-// getFromUserTheMonth();
+function getFromUserTheMonth(){
+var someMonth = new Date(prompt("type some Date"))
+return someMonth.getMonth()
+}
+getFromUserTheMonth();
 
 
 
@@ -117,19 +116,12 @@
 
 
 
-// 173	Date	צרו פונקציה שיוצרת אובייקט של Date ומדפיסה למסך את המיקום של המשתמש.	
-
-
-
-
-
-
 // צרו פונקציה שיוצרת תאריך רנדומלי בין 31/01/1990 ל 31/01/2022 ומדפיסה את התוצאה.
 
-function getRandomDate(){
-    var rnd = 
-    return 
-}
-getRandomDate();
+// function getRandomDate(){
+//     var rndDay = 
+//     return 
+// }
+// getRandomDate();
 
 
