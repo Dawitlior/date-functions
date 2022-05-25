@@ -127,24 +127,24 @@
 
 // צרו פונקציה שיוצרת תאריך רנדומלי בין 31/01/1990 ל 31/01/2022 ומדפיסה את התוצאה.
 
-function getRndNum(){
-    // יצירת חודש רנדומלי בין 0-11
-  var rndMonth= Math.floor(Math.random()*12);
-   // יצירת יום רנדומלי בין 1-31
-  var rndDay = Math.floor(Math.random()*(31-1)+1);
-  // יצירת יום רנדומלי בשבוע בין 0-6
-  var dateStr= rndMonth+"/"+rndDay+"/1996";
-  // יצירת אובייקט חדש ששומר את המשתנה שמחבר את כולם
-  var date = new Date(dateStr);
+// function getRndNum(){
+//     // יצירת חודש רנדומלי בין 0-11
+//   var rndMonth= Math.floor(Math.random()*12);
+//    // יצירת יום רנדומלי בין 1-31
+//   var rndDay = Math.floor(Math.random()*(31-1)+1);
+//   // יצירת יום רנדומלי בשבוע בין 0-6
+//   var dateStr= rndMonth+"/"+rndDay+"/1996";
+//   // יצירת אובייקט חדש ששומר את המשתנה שמחבר את כולם
+//   var date = new Date(dateStr);
 
-  return date;
-}
-getRndNum();
-
-
+//   return date;
+// }
+// getRndNum();
 
 
-var monthDate = Math.floor(Math.random()*12);
-var dayDate = Math.floor(Math.random()*(31-1)+1);
-var dateStr = dayDate +"/"+monthDate+"/1997"
-var myDate = new Date(dateStr);
+
+
+// var monthDate = Math.floor(Math.random()*12);
+// var dayDate = Math.floor(Math.random()*(31-1)+1);
+// var dateStr = dayDate +"/"+monthDate+"/1997"
+// var myDate = new Date(dateStr);
